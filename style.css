@@ -1,0 +1,67 @@
+* {
+  margin: 1px;
+}
+.graphWeek{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin: 20px 0;
+}
+.graphBody{
+  display: flex;
+  color: #959494;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.graphBody_table{
+  display: flex;
+  flex-direction: column;
+}
+.graphCalendar {
+  width: 880px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.graphFooter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.graphFooter_text{
+  color: #959494;
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.graphFooter_squares{
+  display: flex;
+  gap: 2px;
+}
+.square {
+  width: 15px;
+  height: 15px;
+  background: #EDEDED;
+}
+.graphFooter_square-1{
+  background: #EDEDED;
+}
+.graphFooter_square-2{
+  background: #ACD5F2;
+}
+.graphFooter_square-3{
+  background: #7FA8C9;
+}
+.graphFooter_square-4{
+  background: #527BA0;
+}
+.graphFooter_square-5{
+  background: #254E77;
+}
